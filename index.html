@@ -1,0 +1,861 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>牛人邦设计网站</title>
+    <link rel="stylesheet" type="text/css" href="css/material-cards.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/animate.css">
+    <script src="js/jquery.js"></script>
+    <script src="js/jquery.classycountdown.min.js"></script>
+    <script src="js/jquery.knob.js"></script>
+    <script src="js/jquery.throttle.js"></script>
+    <script src="js/drag.js"></script>
+    <script src="js/jquery.lettering.js"></script>
+    <script src="js/jquery.textillate.js"></script>
+</head>
+<body>
+
+<div id="header">
+    <div class="banner">
+        <div class="jumbotron">
+            <h1 class="glow in tlt">CREATE</h1>
+
+            <p data-in-effect="bounceInDown">灵感思维&nbsp捕捉转瞬即逝的创意火花</p>
+        </div>
+        <div class="start">
+            <div id="drag" class="start_img"></div>
+        </div>
+    </div>
+    <div class="navbar">
+        <ul class="nav">
+            <li><a class="btn" href="#">开始设计</a></li>
+            <li><a href="#">博客</a></li>
+            <li><a href="#">案例</a></li>
+            <li><a href="#">首页</a></li>
+        </ul>
+        <div class="logo">
+            <a href="#">
+                <img class="logoimg1" src="image/logo.png" style="display: block;">
+                <img class="logoimg2" src="image/logo-rocket.png" style="display: none;">
+            </a>
+        </div>
+    </div>
+</div>
+
+<div class="container">
+    <div class="countmain">
+        <div>
+            <br/><br/>
+
+            <p><strong>「靳埭强设计奖」</strong>提供一个平台</p><br/>
+
+            <p>把许多人聚集在一起,交流与学习,发挥创意与才华,创建距今</p><br/>
+        </div>
+        <div class="countdown"></div>
+    </div>
+    <div class="cases">
+        <div class="title cf">
+            <ul class="title-list fr cf ">
+                <li class="on">APP</li>
+                <li>WEB</li>
+                <li>海报</li>
+                <li>宣传</li>
+                <p></p>
+            </ul>
+        </div>
+        <div class="product-wrap">
+            <!--案例1-->
+            <div class="product show">
+                <ul class="cf">
+                    <li>
+                        <img src="image/case_01.png">
+
+                        <div class="box">
+                            <p>经济套餐</p>
+
+                            <h3>揭秘化妆水四大隐藏功效</h3>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="image/case_02.png">
+
+                        <div class="box">
+                            <p>豪华套餐</p>
+
+                            <h3>揭秘化妆水四大隐藏功效</h3>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="image/case_03.png">
+
+                        <div class="box">
+                            <p>标准套餐</p>
+
+                            <h3>揭秘化妆水四大隐藏功效</h3>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="image/case_04.png">
+
+                        <div class="box">
+                            <p>标准套餐</p>
+
+                            <h3>揭秘化妆水四大隐藏功效</h3>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="image/case_05.png">
+
+                        <div class="box">
+                            <p>标准套餐</p>
+
+                            <h3>揭秘化妆水四大隐藏功效</h3>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="image/case_06.png">
+
+                        <div class="box">
+                            <p>标准套餐</p>
+
+                            <h3>揭秘化妆水四大隐藏功效</h3>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="image/case_07.png">
+
+                        <div class="box">
+                            <p>标准套餐</p>
+
+                            <h3>揭秘化妆水四大隐藏功效</h3>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="image/case_08.png">
+
+                        <div class="box">
+                            <p>标准套餐</p>
+
+                            <h3>揭秘化妆水四大隐藏功效</h3>
+                        </div>
+                    </li>
+                </ul>
+                <div class="morecase" onclick="morecase(this)">
+                    <p>更多案例>></p>
+                </div>
+            </div>
+            <!--案例2-->
+            <div class="product">
+                <ul class="cf">
+                    <li>
+                        <img src="image/case_01.png">
+
+                        <div class="box">
+                            <p>经济套餐</p>
+
+                            <h3>揭秘化妆水四大隐藏功效</h3>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="image/case_02.png">
+
+                        <div class="box">
+                            <p>豪华套餐</p>
+
+                            <h3>揭秘化妆水四大隐藏功效</h3>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="image/case_03.png">
+
+                        <div class="box">
+                            <p>标准套餐</p>
+
+                            <h3>揭秘化妆水四大隐藏功效</h3>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="image/case_04.png">
+
+                        <div class="box">
+                            <p>标准套餐</p>
+
+                            <h3>揭秘化妆水四大隐藏功效</h3>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="image/case_05.png">
+
+                        <div class="box">
+                            <p>标准套餐</p>
+
+                            <h3>揭秘化妆水四大隐藏功效</h3>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="image/case_06.png">
+
+                        <div class="box">
+                            <p>标准套餐</p>
+
+                            <h3>揭秘化妆水四大隐藏功效</h3>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="image/case_07.png">
+
+                        <div class="box">
+                            <p>标准套餐</p>
+
+                            <h3>揭秘化妆水四大隐藏功效</h3>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="image/case_08.png">
+
+                        <div class="box">
+                            <p>标准套餐</p>
+
+                            <h3>揭秘化妆水四大隐藏功效</h3>
+                        </div>
+                    </li>
+                </ul>
+                <div class="morecase" onclick="morecase(this)">
+                    <p>更多案例>></p>
+                </div>
+            </div>
+            <!--案例3-->
+            <div class="product">
+                <ul class="cf">
+                    <li>
+                        <img src="image/case_01.png">
+
+                        <div class="box">
+                            <p>经济套餐</p>
+
+                            <h3>揭秘化妆水四大隐藏功效</h3>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="image/case_02.png">
+
+                        <div class="box">
+                            <p>豪华套餐</p>
+
+                            <h3>揭秘化妆水四大隐藏功效</h3>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="image/case_03.png">
+
+                        <div class="box">
+                            <p>标准套餐</p>
+
+                            <h3>揭秘化妆水四大隐藏功效</h3>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="image/case_04.png">
+
+                        <div class="box">
+                            <p>标准套餐</p>
+
+                            <h3>揭秘化妆水四大隐藏功效</h3>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="image/case_05.png">
+
+                        <div class="box">
+                            <p>标准套餐</p>
+
+                            <h3>揭秘化妆水四大隐藏功效</h3>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="image/case_06.png">
+
+                        <div class="box">
+                            <p>标准套餐</p>
+
+                            <h3>揭秘化妆水四大隐藏功效</h3>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="image/case_07.png">
+
+                        <div class="box">
+                            <p>标准套餐</p>
+
+                            <h3>揭秘化妆水四大隐藏功效</h3>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="image/case_08.png">
+
+                        <div class="box">
+                            <p>标准套餐</p>
+
+                            <h3>揭秘化妆水四大隐藏功效</h3>
+                        </div>
+                    </li>
+                </ul>
+                <div class="morecase" onclick="morecase(this)">
+                    <p>更多案例>></p>
+                </div>
+            </div>
+            <!--案例4-->
+            <div class="product">
+                <ul class="cf">
+                    <li>
+                        <img src="image/case_01.png">
+
+                        <div class="box">
+                            <p>经济套餐</p>
+
+                            <h3>揭秘化妆水四大隐藏功效</h3>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="image/case_02.png">
+
+                        <div class="box">
+                            <p>豪华套餐</p>
+
+                            <h3>揭秘化妆水四大隐藏功效</h3>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="image/case_03.png">
+
+                        <div class="box">
+                            <p>标准套餐</p>
+
+                            <h3>揭秘化妆水四大隐藏功效</h3>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="image/case_04.png">
+
+                        <div class="box">
+                            <p>标准套餐</p>
+
+                            <h3>揭秘化妆水四大隐藏功效</h3>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="image/case_05.png">
+
+                        <div class="box">
+                            <p>标准套餐</p>
+
+                            <h3>揭秘化妆水四大隐藏功效</h3>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="image/case_06.png">
+
+                        <div class="box">
+                            <p>标准套餐</p>
+
+                            <h3>揭秘化妆水四大隐藏功效</h3>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="image/case_07.png">
+
+                        <div class="box">
+                            <p>标准套餐</p>
+
+                            <h3>揭秘化妆水四大隐藏功效</h3>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="image/case_08.png">
+
+                        <div class="box">
+                            <p>标准套餐</p>
+
+                            <h3>揭秘化妆水四大隐藏功效</h3>
+                        </div>
+                    </li>
+                </ul>
+                <div class="morecase" onclick="morecase(this)">
+                    <p>更多案例>></p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="goods">
+        <div class="subtitle">
+            <h2>
+                <hr class="hrl">
+                <span>精品推荐</span>
+                <hr class="hrr">
+            </h2>
+        </div>
+        <ul>
+            <li>
+                <a>
+                    <img src="image/goods_01.png">
+
+                    <p><span class="spanl">信封</span>
+                        <span class="spanr"><strong>¥ 4.25/</strong>个起</span>
+                    </p>
+                </a>
+            </li>
+            <li>
+                <a> <img src="image/goods_02.png">
+
+                    <p><span class="spanl">信封</span>
+                        <span class="spanr"><strong>¥ 1.56/</strong>个起</span>
+                    </p>
+                </a>
+            </li>
+            <li>
+                <a>
+                    <img src="image/goods_03.png">
+
+                    <p><span class="spanl">名片</span>
+                        <span class="spanr"><strong>¥ 11.28/</strong>个起</span>
+                    </p>
+                </a>
+            </li>
+            <li>
+                <a>
+                    <img src="image/goods_04.png">
+
+                    <p><span class="spanl">包装</span>
+                        <span class="spanr"><strong>¥ 11.28/</strong>个起</span>
+                    </p>
+                </a>
+            </li>
+        </ul>
+        <ul>
+            <li>
+                <a>
+                    <img src="image/goods_04.png">
+
+                    <p><span class="spanl">介绍书</span>
+                        <span class="spanr"><strong>¥ 31.52/</strong>个起</span>
+                    </p>
+                </a>
+            </li>
+            <li>
+                <a>
+                    <img src="image/goods_06.png">
+
+                    <p><span class="spanl">名片</span>
+                        <span class="spanr"><strong>¥ 11.28/</strong>个起</span>
+                    </p>
+                </a>
+            </li>
+            <li>
+                <a>
+                    <img src="image/goods_07.png">
+
+                    <p><span class="spanl">企业书籍</span>
+                        <span class="spanr"><strong>¥ 20.3/</strong>个起</span>
+                    </p>
+                </a>
+            </li>
+            <li>
+                <a>
+                    <img src="image/goods_08.png">
+
+                    <p><span class="spanl">包装</span>
+                        <span class="spanr"><strong>¥ 11.28/</strong>个起</span>
+                    </p>
+                </a>
+            </li>
+        </ul>
+    </div>
+    <div class="user_case"></div>
+    <div class="blog">
+        <div class="blogcontent">
+            <div class="subtitle">
+                <h2>
+                    <hr class="hrl">
+                    <span>博文推荐</span>
+                    <hr class="hrr">
+                </h2>
+            </div>
+            <div class="blog-left">
+                <article class="material-card Grey">
+                    <h2>
+                        <span>探索海洋之心</span>
+                        <strong>
+                            <i class="fa fa-fw fa-star"></i>
+                            2015.03.27
+                        </strong>
+                    </h2>
+
+                    <div class="mc-content">
+                        <div class="img-container">
+                            <img class="img-responsive" src="image/blog_03.png">
+                        </div>
+                        <div class="mc-description">
+                            大堡礁,位于澳大利亚昆士兰州北部凯恩斯的热带海岸附近,这个著名的自然奇迹是名副其实的自然宝库,
+                            在长达2600公里,范围约348000平方公里的海域,拥有接近...
+                        </div>
+                    </div>
+                    <a class="mc-btn-action">
+                        <i class="fa fa-bars"></i>
+                    </a>
+                </article>
+            </div>
+            <div class="blog-center">
+                <ul>
+                    <li class="blog-up">
+                        <article class="material-card Grey">
+                            <h2>
+                                <span>产品包装</span>
+                                <strong>
+                                    <i class="fa fa-fw fa-star"></i>
+                                    2015.03.27
+                                </strong>
+                            </h2>
+
+                            <div class="mc-content">
+                                <div class="img-container">
+                                    <img class="img-responsive" src="image/blog_01.png">
+                                </div>
+                                <div class="mc-description">
+                                    大堡礁,位于澳大利亚昆士兰州北部凯恩斯的热带海岸附近,这个著名的自然奇迹是名副其实的自然宝库,
+                                    在长达2600公里,范围约348000平方公里的海域,拥有接近...
+                                </div>
+                            </div>
+                            <a class="mc-btn-action">
+                                <i class="fa fa-bars"></i>
+                            </a>
+                        </article>
+                    </li>
+                    <li class="blog-bottom">
+                        <article class="material-card Grey">
+                            <h2>
+                                <span>久仰</span>
+                                <strong>
+                                    <i class="fa fa-fw fa-star"></i>
+                                    2015.03.27
+                                </strong>
+                            </h2>
+
+                            <div class="mc-content">
+                                <div class="img-container">
+                                    <img class="img-responsive" src="image/blog_02.png">
+                                </div>
+                                <div class="mc-description">
+                                    大堡礁,位于澳大利亚昆士兰州北部凯恩斯的热带海岸附近,这个著名的自然奇迹是名副其实的自然宝库,
+                                    在长达2600公里,范围约348000平方公里的海域,拥有接近...
+                                </div>
+                            </div>
+                            <a class="mc-btn-action">
+                                <i class="fa fa-bars"></i>
+                            </a>
+                        </article>
+                    </li>
+                </ul>
+            </div>
+            <div class="blog-right">
+                <article class="material-card Grey">
+                    <h2>
+                        <span>探索海洋之心</span>
+                        <strong>
+                            <i class="fa fa-fw fa-star"></i>
+                            2015.03.27
+                        </strong>
+                    </h2>
+
+                    <div class="mc-content">
+                        <div class="img-container">
+                            <img class="img-responsive" src="image/blog_03.png">
+                        </div>
+                        <div class="mc-description">
+                            大堡礁,位于澳大利亚昆士兰州北部凯恩斯的热带海岸附近,这个著名的自然奇迹是名副其实的自然宝库,
+                            在长达2600公里,范围约348000平方公里的海域,拥有接近...
+                        </div>
+                    </div>
+                    <a class="mc-btn-action">
+                        <i class="fa fa-bars"></i>
+                    </a>
+                </article>
+            </div>
+        </div>
+    </div>
+    <div class="startpost">
+        <p>下单后我们会有设计师与您沟通,之后会进行设计</p>
+
+        <p>You don't understand it well enough.</p>
+
+        <div class="process">
+            <img src="image/start-order.png">
+            <img src="image/start-chat.png">
+            <img src="image/start-design.png">
+        </div>
+        <div class="processtxt">
+            <span>下单</span>
+            <span>沟通</span>
+            <span>设计</span>
+        </div>
+        <div class="startdesign" onclick="">
+            <img src="image/logo_start.png">
+
+            <p>开始设计</p>
+        </div>
+    </div>
+</div>
+<div id="footer">
+    <div class="forwide">
+        <div class="footerup clearfix">
+            <div class="LP">
+                <p>客服联系&nbsp9:00-20:00</p><br/>
+
+                <p>400-254-5487</p><br/>
+
+                <p><strong>DISIGN</strong></p>
+
+                <p>您信赖的设计专家</p>
+            </div>
+            <div class="RP">
+                <ul class="otherlinks">
+                    <li><strong class="f-pop"><span></span><i></i>公司信息About</strong>
+
+                        <div>
+                            <a href="#">▪　关于我们</a>
+                            <a href="#">▪　联系地址</a>
+                            <a href="#" target="_blank">▪　LOGO博客</a>
+                            <a href="#" target="_blank">▪　企业微博</a>
+                        </div>
+                    </li>
+                    <li><strong class="f-pop"><span></span><i></i>产品/服务Service</strong>
+
+                        <div><a href="#">▪　LOGO设计</a>
+                            <a href="#">▪　商标注册</a>
+                            <a href="#">▪　包装设计</a>
+                            <a href="#">▪　海报设计</a>
+                        </div>
+                    </li>
+                    <li><strong class="f-pop"><span></span><i></i>地方客户Local</strong>
+
+                        <div><a href="#">▪　北京</a>
+                            <a href="#">▪　上海</a>
+                            <a href="#">▪　广州</a>
+                            <a href="#/">▪　深圳</a>
+                        </div>
+                    </li>
+                    <li><strong class="f-pop"><span></span><i></i>帮助Help</strong>
+
+                        <div><a href="#">▪　常见问题</a>
+                            <a href="#">▪　汇款信息</a>
+                            <a href="#">▪　版权声明</a>
+                            <a href="#">▪　LOGO评选</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="footerdown">
+            <a id="popflink" href="#" class="btn">申请友链</a>
+            <a href="http://www.shejidaren.com/" target="_blank">设计达人</a>
+            <a href="http://www.haohead.com/" target="_blank">企业VI设计公司</a>
+            <a href="http://www.cnlogo8.com/" target="_blank">logo门户网</a>
+            <a href="http://www.logosj.com/" target="_blank">logo设计</a>
+            <a href="http://www.35pic.com/" target="_blank">仿图网</a>
+            <a href="http://www.52hibuy.com/" target="_blank">嗨易网</a>
+            <a href="http://www.cldol.com/" target="_blank">标志设计</a>
+            <a href="http://www.logo33.com/" target="_blank">logo设计</a>
+            <a href="http://www.ibiaozhi.com/" target="_blank">商标设计</a>
+            <a href="http://weihai.qd8.com.cn/" target="_blank">威海分类信息</a>
+            <a href="http://www.logosc.cn/" target="_blank">LOGO收藏家</a>
+            <a href="http://www.sharelogo.cn/" target="_blank">晒标网</a>
+            <a href="http://www.vsochina.com/" target="_blank">蓝海创意云</a>
+            <a href="http://www.4aqq.com/" target="_blank">字体下载</a>
+            <a href="http://www.logoshe.com/" target="_blank">Logo社</a>
+            <a href="http://xm.logo123.net/" target="_blank">厦门logo设计</a>
+            <a href="http://www.siweiw.com/" target="_blank">免费素材</a>
+            <a href="http://www.psjia.com/" target="_blank">PS家园教程网</a>
+            <a href="http://www.logozj.com/" target="_blank">LOGO设计</a>
+            <a href="http://www.xueui.cn/" target="_blank">学ui网</a>
+            <a href="http://www.logo8.cn/" target="_blank">logo吧</a>
+            <a href="http://www.sucaijiayuan.com/" target="_blank">免费素材网</a>
+            <a href="http://www.siweiw.com/" target="_blank">思维网</a>
+            <a href="http://www.chuangyimao.com/" target="_blank">创意猫网</a>
+            <a href="http://dg.logo123.net/" target="_blank">东莞logo设计</a>
+            <a href="http://www.tmmark.com/" target="_blank">商标网</a>
+            <a href="http://www.demage.com/" target="_blank">展示设计</a>
+            <a href="http://www.zhengjimt.com/" target="_blank">有奖征集网</a>
+            <a href="http://www.zitichina.com/" target="_blank">字体设计</a>
+            <!--<a href="http://www.zhituad.com/" target="_blank">原创logo下载</a>-->
+            <!--<a href="http://www.zhisheji.com/" target="_blank">致设计</a>-->
+            <!--<a href="http://www.yifutu.com/" target="_blank">一幅图</a>-->
+            <!--<a href="http://sudasuta.com/" target="_blank">苏打苏塔设计量贩铺</a>-->
+            <!--<a href="http://90sheji.com/" target="_blank">90设计</a>-->
+            <!--<a href="http://www.sumiao.net/" target="_blank">素描</a>-->
+            <!--<a href="http://www.zbj.com/logo/" target="_blank">公司logo设计</a>-->
+            <!--<a href="http://www.3dczk.com/" target="_blank">3d材质库</a>-->
+            <!--<a href="http://www.logomr.com/" target="_blank">Logo先生</a>-->
+        </div>
+    </div>
+</div>
+<script type="text/javascript">
+    $(document).ready(function () {
+        //文字渐入
+        $('.jumbotron h1')
+                .textillate({in: {effect: 'flipInY'}});
+
+        $('.jumbotron p')
+                .textillate({initialDelay: 1000, in: {delay: 3, shuffle: true}});
+
+        setTimeout(function () {
+            $('.fade').addClass('in');
+        }, 250);
+
+        setTimeout(function () {
+            $('h1.glow').removeClass('in');
+        }, 2000);
+
+        //logo变化
+        $('.navbar .logo').hover(function () {
+//            $('.logoimg').animate({
+//                src: url("image/logo.png")
+//            }, 10);
+            $('.logoimg1').hide();
+            $('.logoimg2').show();
+
+        }, function () {
+//            $('.logoimg').animate({
+//                src: url("image/logo_start.png")
+//            }, 20);
+            $('.logoimg2').hide();
+            $('.logoimg1').show();
+        });
+
+        //开始设计按钮滑动
+        $('#drag').drag();
+
+        //计时器插件
+        $('.countdown').ClassyCountdown({
+            theme: "flat-colors",
+            end: '1388468325',
+            now: '1378441323',
+            labels: true,
+            style: {
+                element: "",
+                textResponsive: .5,
+                days: {
+                    gauge: {
+                        thickness: .02,
+                        bgColor: "rgba(0,0,0,0.05)",
+                        fgColor: "#1abc9c"
+                    },
+                    textCSS: 'font-family:\'Open Sans\'; font-size:25px; font-weight:300; color:#34495e;'
+                },
+                hours: {
+                    gauge: {
+                        thickness: .02,
+                        bgColor: "rgba(0,0,0,0.05)",
+                        fgColor: "#2980b9"
+                    },
+                    textCSS: 'font-family:\'Open Sans\'; font-size:25px; font-weight:300; color:#34495e;'
+                },
+                minutes: {
+                    gauge: {
+                        thickness: .02,
+                        bgColor: "rgba(0,0,0,0.05)",
+                        fgColor: "#8e44ad"
+                    },
+                    textCSS: 'font-family:\'Open Sans\'; font-size:25px; font-weight:300; color:#34495e;'
+                },
+                seconds: {
+                    gauge: {
+                        thickness: .02,
+                        bgColor: "rgba(0,0,0,0.05)",
+                        fgColor: "#f39c12"
+                    },
+                    textCSS: 'font-family:\'Open Sans\'; font-size:25px; font-weight:300; color:#34495e;'
+                }
+
+
+            },
+            onEndCallback: function () {
+                console.log("Time out!");
+            }
+        });
+    });
+
+    $(function () {
+        //设计案例切换
+        $('.title-list li').mouseover(function () {
+            var liindex = $('.title-list li').index(this);
+            $(this).addClass('on').siblings().removeClass('on');
+            $('.product-wrap div.product').eq(liindex).fadeIn(150).siblings('div.product').hide();
+            var liWidth = $('.title-list li').width();
+            $('.cases .title-list p').stop(false, true).animate({'left': liindex * liWidth + 'px'}, 300);
+        });
+
+        //设计案例hover效果
+
+        $('.product-wrap .product li ').hover(function () {
+            $(this).children('.box').stop(true, true).delay(100).animate({
+                opacity: 0.8
+            }, 10);
+        }, function () {
+            $(this).children('.box').stop(true, true).animate({opacity: 0}, 20);
+        });
+
+    });
+    //人物卡片切换
+    $('.material-card > .mc-btn-action').click(function () {
+        var card = $(this).parent('.material-card');
+        var icon = $(this).children('i');
+        icon.addClass('fa-spin-fast');
+
+        if (card.hasClass('mc-active')) {
+            card.removeClass('mc-active');
+
+            window.setTimeout(function () {
+                icon
+                        .removeClass('fa-arrow-left')
+                        .removeClass('fa-spin-fast')
+                        .addClass('fa-bars');
+
+            }, 800);
+        } else {
+            card.addClass('mc-active');
+
+            window.setTimeout(function () {
+                icon
+                        .removeClass('fa-bars')
+                        .removeClass('fa-spin-fast')
+                        .addClass('fa-arrow-left');
+
+            }, 800);
+        }
+    });
+
+
+    /*更多案例当前页面加载*/
+    function morecase(obj) {
+        var maindiv = obj.previousElementSibling;
+        var lii = document.createElement("li");
+        for (var i = 1; i <= 8; i++) {
+            var lii = document.createElement("li");
+            lii.innerHTML = "<img src='image/case_0" + i + ".png'><div class='box'><p>标准套餐</p><h3>揭秘化妆水四大隐藏功效</h3></div>";
+            maindiv.appendChild(lii);
+        }
+        $('.product-wrap .product li ').hover(function () {
+            $(this).children('.box').stop(true, true).delay(100).animate({
+                opacity: 0.8
+            }, 10);
+        }, function () {
+            $(this).children('.box').stop(true, true).animate({opacity: 0}, 20);
+        });
+
+    }
+</script>
+</body>
+</html>
